@@ -82,7 +82,7 @@ option_settings:
     Initialize your EB CLI repository with the eb init command.
     eb init -p python-3.8 django-app
     
-    aws configure
+   aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: us-west-2
