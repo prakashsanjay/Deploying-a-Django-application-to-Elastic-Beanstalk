@@ -1,5 +1,5 @@
 # Deploying-a-Django-application-to-Elastic-Beanstalk
-Deploy Django App in AWS Elastic-Beanstalk
+## Steps To Deploy Django App in AWS Elastic-Beanstalk
 
 Prerequisites
 
@@ -81,13 +81,10 @@ mkdir .ebextensions
 
 In the .ebextensions directory, add a configuration file named django.config with the following text.
 
-option_settings:
 
-  aws:elasticbeanstalk:container:python:
-  
-    WSGIPath: ebdjago.wsgi:application
+![Screenshot from 2022-08-06 23-31-48](https://user-images.githubusercontent.com/23288656/183279554-f5eafe89-ed8d-4abf-bc7e-fc7203cfb471.png)
+
     
-  
   ## You've added everything you need to deploy your application on Elastic Beanstalk. Your project directory should now look like this
 
 ![Screenshot from 2022-08-06 23-34-46](https://user-images.githubusercontent.com/23288656/183277441-272458a6-0149-4417-87f9-b3a2bcb9ddee.png)
