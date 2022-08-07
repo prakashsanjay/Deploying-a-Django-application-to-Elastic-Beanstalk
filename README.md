@@ -71,11 +71,12 @@ In a web browser, open http://127.0.0.1:8000/ to view the site
 
 ## Configure your Django application for Elastic Beanstalk
 
-Activate your virtual environment.
+Activate your virtual environment in VS Code project workspace terminal 
+enter command to see all your required depenadcy installed or not
 
 pip freeze > requirements.txt
 
-Create a directory named .ebextensions
+Next Create a directory named .ebextensions
 
 mkdir .ebextensions
 
