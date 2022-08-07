@@ -109,16 +109,14 @@ Default region name [None]: ENTER_YOUR_DEFAULT_REGION
 
 Default output format [None]: json
 
+## Create an environment and deploy your Django application
+ Initialize your EB CLI repository with the eb init command.
+ 
+ eb init -p python-3.8 django-app
 
+ eb create django-env
 
-    To create an environment and deploy your Django application
-    Initialize your EB CLI repository with the eb init command.
-    eb init -p python-3.8 django-app
-    
-  
-
-eb create django-env
-eb status
+ eb status
 
 ![Screenshot from 2022-08-06 23-52-02](https://user-images.githubusercontent.com/23288656/183278253-80aa91ff-bf66-4996-b59b-141bcdbb0179.png)
 
