@@ -92,12 +92,12 @@ In the .ebextensions directory, add a configuration file named django.config wit
 
 # Note- We didn't create git repo yet so do not worry if .gitignore not in your project folder
 
-Now before AWS configure we need to create an access keys so for that switch over to IAM service in AWS console and follow below steps to create an access keys
+proceed to the IAM service on the AWS console and perform the steps below to create access keys
 
 IAM--> Users---> Existing User---->Security Credentials--> Create Access Keys
 ---> copy both your access keys & save it in your local PC
 
-enter below command in your terminal
+Enter below command in your terminal & follow the below steps
 
  aws configure
  
@@ -128,11 +128,11 @@ eb deploy
 
 eb open
 
-If you do see your application running, then congratulations, you've deployed your first Django application with Elastic Beanstalk!
+If you see your app working, well done, you've deployed your first Django app with Elastic Beanstalk!
 
 ![Screenshot from 2022-08-06 23-54-17](https://user-images.githubusercontent.com/23288656/183276990-6f8eb85e-5c97-4a30-a56d-3dd4f0d935a0.png)
 
-## Now Switch over to AWS console and open AWS Elastic Beanstock Service you can see app's Environment , Health , URL etc
+## Now proceed to AWS console & open Amazon Elastic Beanstock Service you can see app's Environment , Health , URL etc
 
 
 ![new](https://user-images.githubusercontent.com/23288656/183279236-7c97f437-20b9-4cff-afda-17cd03744842.PNG)
@@ -141,7 +141,7 @@ If you do see your application running, then congratulations, you've deployed yo
 ![Capture-eb](https://user-images.githubusercontent.com/23288656/183279163-276a7a3e-d75a-4f36-89d0-41e987cf9a6a.PNG)
 
 
-## Links to know more about this deployment
+## Links for further details on this deployment.
 
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-django.html
 
@@ -149,7 +149,7 @@ Youtube Link
 
 https://youtu.be/lid-aICtbCI
 
-## *Note--- Feel free to make changes I will merge your commit into main if any deployment steps missing in this Readme.md*
+## *Note--- Feel free to make modifications I will merge your commit in main if deployment steps are missing in this Readme.md*
 
 Thanks & Regards
 
