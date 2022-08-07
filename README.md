@@ -97,7 +97,7 @@ Now before AWS configure we need to create an access keys so for that switch ove
 IAM--> Users---> Existing User---->Security Credentials--> Create Access Keys
 ---> copy both your access keys & save it in your local PC
 
-enter below commands in your terminal
+enter below command in your terminal
 
  aws configure
  
