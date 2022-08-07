@@ -11,9 +11,9 @@ pip
 
 virtualenv
 
-awsebcli (https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
+[awsebcli](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
 
-AWS CLI (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 *Set up a Python virtual environment* 
 
